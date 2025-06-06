@@ -3,12 +3,12 @@
 #
 
 # Site details (displayed in the header)
-author: Company
-name: Company Blog
-title: Company Blog
-description: A Description of the Blog
-keywords: "money, optimism, achievement"
-logo: images/logo.jpg
+author: Ekstrapoint
+name: Ekstrapoint Blog
+title: Ekstrapoint Blog
+description: Ekstrapoint is a gamified loyalty platform offering users the opportunity to earn points by engaging with online casinos. These points can be redeemed for real rewards, enhancing the online gaming experience.
+keywords: "casino bonus, no deposit bonus, free spins, online casino reviews, Ekstrapoint, free to play, free slot tournaments, free slots tournaments, slot competitions, online slot tournaments, free-to-play slot tournaments, slot tournament leaderboard, daily slot tournaments, weekly slot tournaments, monthly slot tournaments, no deposit slot tournament, live slot tournaments, social slot tournaments, free spins tournaments, slot duels competition, leaderboard slot challenge, free slot tournaments win real money, daily free spins tournament, multiplayer slot duels online, free casino slot competitions no entry fee, mobile slot tournaments free play, free slot leaderboard races"
+logo: images/logo.svg
 
 # Language of the website
 locale: en-US
@@ -20,8 +20,8 @@ company:
     google_ads_id: 
     microsoft_clarity_id: 
   cta:
-    text: "Visit our website"
-    url: "/"
+    text: "Play Free Competition"
+    url: "https://ekstrapoint.com/competitions/"
   socials:
     youtube: 
     instagram: 
@@ -38,12 +38,12 @@ company:
   icon_size: "24"
   colors:
     main:
-      background: "#19191f"
-      foreground: "#f1f1f1"
+      background: "#fff"
+      foreground: "#1a2433"
     body:
-      background: "#f1f1f1"
-      foreground: "#19191f"
-    accent: "#E74727"
+      background: "#fff"
+      foreground: "#1a2433"
+    accent: "#3765dd"
   fonts:
     google:
       - "Roboto:ital,wght@0,100..900;1,100..900"
@@ -53,12 +53,20 @@ company:
 # Navigation items
 navigation:
   header:
-    - title: "CTA"
-      url: "/"
-    - title: "CTA"
-      url: "/"
-    - title: "CTA"
-      url: "/"
+    - title: "About Us"
+      url: "/about-us"
+    - title: "Contact Us"
+      url: "/contact-us"
+    - title: "Competitions"
+      url: "/competitions"
+    - title: "How It Works"
+      url: "/how-it-works"
+    - title: "Shop"
+      url: "/shop"
+    - title: "Casino Bonuses"
+      url: "/casino-bonuses"
+    - title: "Top Casinos"
+      url: "/casinos/top-casinos"
   footer:
     - title: "Terms and Conditions"
       url: "/terms-and-conditions"
@@ -69,7 +77,7 @@ navigation:
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url: https://127.0.0.1:4000/
+url: https://blog.ekstrapoint.com/
 
 # Paginate after X amount of posts
 paginate: 10
